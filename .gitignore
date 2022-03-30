@@ -1,0 +1,22 @@
+
+# I use a global gitignore file for the following, but worth noting these:
+.DS_Store
+.phpstorm.meta.php
+.idea/
+.modman
+
+# Don't commit composer dependencies:
+composer/
+# Don't include any temporary files and other unimportant things
+*.log
+*.bak
+*.bak.*
+*.thumbs/
+.DS_Store
+Thumbs.db
+.svn
+*.swp
+*.csv
+
+/vendor/
+/vendor/autoload.php
